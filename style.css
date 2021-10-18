@@ -1,5 +1,4 @@
 body {
-    
     display: flex;
     flex-direction: column;
     max-height: 100vh;
@@ -7,14 +6,14 @@ body {
 
 .top-wrapper {
     background-color: #1f2937;
-    padding: 0 350px;
-  
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom:100px;
 }
 
@@ -29,6 +28,7 @@ ul.header-links, .logo{
 
 a{
     text-decoration:none;
+    color:inherit;
 }
 
 .logo
@@ -37,9 +37,11 @@ a{
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
+    margin-left: -45px;
 }
 
-.top-image-container img{
+.top-image-container img,
+.info-containers img{
     display:flex;
     height: auto;
     width: 400px;
@@ -48,7 +50,7 @@ a{
 
 .body-wrapper{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 40px;
     margin-bottom:100px;
 }
@@ -56,19 +58,7 @@ a{
 .awesome-container{
     width: 400px;
     display: flex;
-    flex-wrap: wrap;
-    
-}
-
-button{
-    width: 120px;
-    height: 35px;
-    background-color: #3882F6;
-    border-color: #3882F6; 
-    color:#F9FAF8 ;
-    font-weight: bold;
-    border-radius: 8px;
-    
+    flex-wrap: wrap;   
 }
 
 .awesome-header {
@@ -81,3 +71,27 @@ button{
     font-size:18px;
     color: #E5E7EB;
 }
+
+button{
+    width: 120px;
+    height: 35px;
+    background-color: #3882F6;
+    border-color: #3882F6; 
+    color:#F9FAF8 ;
+    font-weight: bold;
+    border-radius: 8px; 
+}
+
+.header-links {
+    margin-right: -63px;
+}
+
+
+/*Second layer
+
+.info-containers img{
+    border: 5px solid #3882F6;
+    border-radius: 8px; 
+    width: 200px;
+}
+*/
