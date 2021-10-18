@@ -1,11 +1,11 @@
 *{
-    font-family: "Arial", sans-serif;
+    font-family: "Yu Gothic", arial;
+    font-weight: 400;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    max-height: 100vh;
     margin:0;
 }
 
@@ -13,13 +13,17 @@ body {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+   
+    
 }
 
 .header{
     display: flex;
     justify-content: space-around;
-    margin: 0 -80px 80px -80px;
+    margin-bottom: 60px;
+    gap:140px;
+    
 }
 
 ul.header-links, .logo{
@@ -50,6 +54,7 @@ a{
     height: auto;
     width: 400px;
     max-width: 100%;
+   
 }
 
 .body-wrapper{
@@ -68,7 +73,7 @@ a{
 
 .awesome-header {
     font-size: 48px; 
-    font-weight: 1000;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
@@ -87,9 +92,6 @@ button{
     border-radius: 8px; 
 }
 
-.header-links {
-   
-}
 
 
 /*Second layer
@@ -111,6 +113,7 @@ button{
 .info-img-wrapper{
     display: flex;
     flex-direction: column;
+    margin-bottom: 120px;
 }
 
 .illustrations{
@@ -133,5 +136,31 @@ button{
 .info-containers img{
     border: 5px solid #3882F6;
     border-radius: 8px;
+}
 
+/* quote*/
+
+.quote-wrapper{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    font-weight:100;
+    padding: 150px 450px 150px 450px;
+    gap:10px;
+    
+}
+
+.quote-wrapper .quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    align-self: center;
+ 
+}
+
+.thor{
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 22px;
 }
