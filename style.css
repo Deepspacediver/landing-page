@@ -90,6 +90,7 @@ button{
     color:#F9FAF8 ;
     font-weight: bold;
     border-radius: 8px; 
+    font-size: 18px;
 }
 
 
@@ -145,8 +146,10 @@ button{
     display: flex;
     flex-direction: column;
     font-weight:100;
-    padding: 150px 450px 150px 450px;
+    padding: 150px;
     gap:10px;
+    
+    
     
 }
 
@@ -156,6 +159,7 @@ button{
     font-style: italic;
     color: #1f2937;
     align-self: center;
+   
  
 }
 
@@ -163,4 +167,64 @@ button{
     align-self: flex-end;
     font-weight: 900;
     font-size: 22px;
+}
+
+
+/*sign up*/
+
+.action-wrapper, .action,
+.signer
+{
+    display: flex;
+}
+.action-wrapper{
+    justify-content: center;
+}
+
+
+.signer{
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.action{
+    justify-content: space-between;
+    background-color: #3882F6;
+    margin: 100px;
+    gap:350px;
+    padding:50px 80px;
+    border-radius: 15px;
+    
+}
+
+.action button{
+    
+    border: solid white;
+    font-size: 20px;
+    min-width: auto;
+    height: auto;
+}
+
+.signer div{
+    color: #E5E7EB;
+}
+
+.title-action{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.sub-action{
+    font-size: 20px;
+}
+
+/*FOOTER
+
+
+*/
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
